@@ -1,5 +1,5 @@
-# Github-Profile-Searcher
-This is a simple web application that allows you to search for GitHub profiles using a clean and intuitive interface.
+# Responsive-Github-Profile-Searcher
+This is a simple responsive web application that allows you to search for GitHub profiles using a clean and intuitive interface.
 
 ## How to Use
 1. **Clone the Repository:**
