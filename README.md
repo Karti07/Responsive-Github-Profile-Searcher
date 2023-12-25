@@ -3,9 +3,7 @@ This is a simple web application that allows you to search for GitHub profiles u
 
 ## How to Use
 1. **Clone the Repository:**
-   ```bash
-git clone https://github.com/Karti07/Github-Profile-Searcher.git
-```
+   ```bash git clone https://github.com/Karti07/Github-Profile-Searcher.git```
 
 2. **Open the App**
   - Navigate to the project directory.
