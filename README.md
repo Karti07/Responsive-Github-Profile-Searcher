@@ -1,5 +1,7 @@
 # Responsive-Github-Profile-Searcher
 This is a simple responsive web application that allows you to search for GitHub profiles using a clean and intuitive interface.
+<img width="1128" alt="image" src="https://github.com/Karti07/Responsive-Github-Profile-Searcher/assets/125097553/b15363f6-82f8-4afb-8171-ea7e27cb734d">
+
 
 ## How to Use
 1. **Clone the Repository:**
