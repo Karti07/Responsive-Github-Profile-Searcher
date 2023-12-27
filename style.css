@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right top, #0066ff, #0c4dc0, #103585, #0e1f4f, #05041e);    color: #fff;
+    background-image: linear-gradient(to right top, #0066ff, #0c4dc0, #103585, #0e1f4f, #05041e);
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,12 +16,17 @@ body {
     overflow-y: scroll;
 }
 
-.github-logo {
-    display: block;
-    margin: 0 auto 10px;
-    height: 50px;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
+.github-logo {
+    display: block;
+    height: 50px;
+}
 
 .main-heading {
     font-size: 2rem;
@@ -28,19 +34,13 @@ body {
     text-align: center;
 }
 
-.user-form {
-    width: 100%;
-    max-width: 700px;
-}
-
 .user-form input {
-    width: 100%;
     display: block;
-    background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);    border: none;
-    border-radius: 10px;
+    background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);
+    border: none;
+    border-radius: 20px;
     color: #fff;
     padding: 1rem;
-    margin-bottom: 2rem;
     font-family: inherit;
     font-size: 1rem;
 }
@@ -50,10 +50,10 @@ body {
 }
 
 .card {
-    max-width: 800px;
     background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);    border: none;
     border-radius: 20px;
     display: flex;
+    align-items: center;
     padding: 1rem;
     gap: 1.5rem;
 }
@@ -62,7 +62,6 @@ body {
     border-radius: 50%;
     border: 10px solid #2a2a72;
     height: 150px;
-    width: 150px;
 }
 
 .user-info {
@@ -77,7 +76,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    max-width: 400px;
     gap: 1rem;
 }
 
@@ -87,8 +85,16 @@ body {
     gap: 0.5rem; 
 }
 
-.user-info ul li strong {
+.user-info ul li {
     font-size: 0.9rem;
+}
+
+#repos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 1rem;
 }
 
 .repo {
@@ -97,18 +103,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
-    display: inline-block;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
 }
 
 @media (max-width: 500px) {
     .card {
         flex-direction: column;
         align-items: center;
-    }
-
-    .user-form {
-        max-width: 400px;
     }
 }
