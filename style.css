@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     background-image: linear-gradient(to right top, #0066ff, #0c4dc0, #103585, #0e1f4f, #05041e);
@@ -34,8 +32,15 @@ body {
     text-align: center;
 }
 
+h1, h2 { margin: 0 }
+
+.user-form {
+    display: flex;
+    width: 100%; 
+}
+
 .user-form input {
-    display: block;
+    flex: 1;
     background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);
     border: none;
     border-radius: 20px;
@@ -43,6 +48,7 @@ body {
     padding: 1rem;
     font-family: inherit;
     font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .user-form input::placeholder {
@@ -50,7 +56,8 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);    border: none;
+    background-image: linear-gradient(to right, #0e0f5c, #262173, #3a348a, #4e48a2, #625dbb);
+    border: none;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -64,13 +71,9 @@ body {
     height: 150px;
 }
 
-.user-info {
-    color: #eee;
-}
+.user-info { color: #eee; }
 
-.user-info h2 {
-    align-items: center;
-}
+.user-info h2 { align-items: center; }
 
 .user-info ul {
     display: flex;
@@ -82,18 +85,16 @@ body {
 .user-info ul li {
     display: flex;
     align-items: center;
-    gap: 0.5rem; 
+    gap: 0.5rem;
 }
 
-.user-info ul li {
-    font-size: 0.9rem;
-}
+.user-info ul li { font-size: 0.9rem; }
 
 #repos {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     gap: 1rem;
 }
 
@@ -109,5 +110,11 @@ body {
     .card {
         flex-direction: column;
         align-items: center;
+    }
+
+    #repos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
