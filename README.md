@@ -3,11 +3,11 @@
 
 This is a simple responsive web application that allows you to search for GitHub profiles using a clean and intuitive interface.<br>
 
-<img width="1128" alt="image" src="https://github.com/Karti07/Responsive-Github-Profile-Searcher/assets/125097553/b15363f6-82f8-4afb-8171-ea7e27cb734d"> <br>
+<img width="1128" alt="image" src="https://github.com/Karti07/Responsive-Github-Profile-Searcher/assets/125097553/c638054d-e12b-4213-8271-774607ca75f5"> <br>
 
-<img width="1128" alt="image" src="https://github.com/Karti07/Responsive-Github-Profile-Searcher/assets/125097553/d752a66e-bef7-46b0-a5c1-ee724e2d25ef">
+<img width="1128" alt="image" src="https://github.com/Karti07/Responsive-Github-Profile-Searcher/assets/125097553/2fdcd86e-bec2-4070-a74b-2004a311f0da">
 
-## How to Use
+## Usage
 1. **Clone the Repository:**
    ```git clone https://github.com/Karti07/Github-Profile-Searcher.git```
 
